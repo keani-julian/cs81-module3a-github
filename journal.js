@@ -8,11 +8,11 @@ function isEvenOrOdd(number) {
   }
   return "odd";
 }
-function convertMinutesToSeconds(minutes) {
+function convertMinutesToSec(minutes) {
   return minutes * 60;
 }
 function canRead(age) {
-  return age >= "3";
+  return age >= 3;
 }
 function countDown(number) {
   if (number === 0) {
